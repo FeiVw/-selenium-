@@ -7,4 +7,7 @@ anime_website   （库）
 		id:bigint, video_episode:varchar, video_title:varchar, video_area:varchar, video_year:varchar, video_url:varchar, anime_key_id:bigint       （列）
 
 
-其中id都是主键自增，drf_animesmallwuhureal中的anime_key_id是关联的drf_animebigwuhureal中的id，以便查找某一部动漫有那几集
+其中id都是主键自增，drf_animesmallwuhureal中的anime_key_id是关联的drf_animebigwuhureal中的id，以便查找某一部动漫有哪几集。
+
+
+创建好数据库后注意把pymysql中的pwd和db换成自己的。

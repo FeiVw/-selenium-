@@ -1,5 +1,8 @@
 数据库结构：
 
+
+
+
 anime_website   （库）
 	drf_animebigwuhureal     （表）
 		id:bigint, video_episodes_count:int, video_episodes:varchar, video_title:varchar, video_area:varchar, video_year:varchar, poster:varchar, video_info:varchar, video_update:varchar        （列）
